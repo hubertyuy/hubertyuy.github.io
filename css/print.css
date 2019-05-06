@@ -1,0 +1,31 @@
+	*{
+		text-shadow:none!important;
+		box-shadow:none!important;
+		color:#000!important;
+	}
+	div#header{
+		position:relative!important;
+	}
+	div#lMenu{
+		display:none;
+	}
+	div#wrapper{
+		margin-left:0;
+	}
+	h1{
+		background-color:#eee;
+		color:#000;
+	}
+	ul#pankuzu{}
+	ul#pankuzu li a,
+	ul#pankuzu li.home,
+	ul#pankuzu li.root,
+	ul#pankuzu li.current{
+		background-image:none!important;
+		background-color:#eee!important;
+		color:#000!important;
+	}
+	div#pageBack,
+	div#pageTop{
+		display:none;
+	}

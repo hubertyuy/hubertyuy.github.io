@@ -1,0 +1,817 @@
+body {
+    overflow-x: hidden;
+    width: 100%
+}
+
+h1.close,
+h1.open {
+    background-image: url("../img/toggle_2x.png");
+    background-size: 42px 181px;
+    background-repeat: no-repeat
+}
+
+h1 {
+    font-weight: normal;
+    display: block;
+    margin: 30px 0;
+    padding: 15px 19px 15px 15px;
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    background-color: #333;
+    text-shadow: 1px -1px 0 #000;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 3px, inset 0 0 4px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 3px, inset 0 0 4px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.5) 0 1px 3px, inset 0 0 4px 4px rgba(0, 0, 0, 0.1)
+}
+
+h1.close {
+    background-position: right 9px
+}
+
+h1.open {
+    background-position: right -141px
+}
+
+h1.non {
+    cursor: default
+}
+
+h2 {
+    margin: 45px 0 20px 0;
+    font-weight: normal;
+    font-size: 20px;
+    font-size: 2.0rem;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 5px 5px
+}
+
+h3 {
+    margin: 10px 0 20px 0;
+    padding: 5px 0 5px 10px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    background-color: #eee
+}
+
+h4 {
+    font-weight: bold
+}
+
+ul.list1 {
+    margin-left: 50px
+}
+
+ul.list1 li {
+    list-style: disc
+}
+
+div.grid {
+    min-width: 300px;
+    width: 28%;
+    float: left;
+    margin: 15px 5% 15px 0
+}
+
+div#main a {
+    text-decoration: none;
+    color: #000;
+    color: #0971b2;
+    padding: 0 5px
+}
+
+div#main a:hover {
+    border-bottom: #d62a56 1px dotted
+}
+
+sup {
+    font-size: 7px;
+    font-size: 0.7rem;
+    vertical-align: super
+}
+
+span.red {
+    color: #ff0000
+}
+
+span.orange {
+    color: #FF6B0D
+}
+
+span.green {
+    color: #32cd32
+}
+span.blue {
+    color: #4BB8FF
+}
+
+
+ul#pankuzu li.home,
+ul#pankuzu li.root,
+ul#pankuzu li.current {
+    -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5)
+}
+
+ul#pankuzu {
+    height: 60px;
+    margin: 0 0 5px 0
+}
+
+ul#pankuzu li {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell
+}
+
+ul#pankuzu li.home {
+    background-color: #000
+}
+
+ul#pankuzu li.home a {
+    width: 140px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    color: #fff;
+    padding: 0
+}
+
+ul#pankuzu li.root {
+    background-color: #ddd;
+    background-color: #cdcdcd;
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE7E7E7', endColorstr='#FFCDCDCD');
+    background-image: -webkit-linear-gradient(#e7e7e7 0%, #cdcdcd 100%);
+    background-image: -moz-linear-gradient(#e7e7e7 0%, #cdcdcd 100%);
+    background-image: -o-linear-gradient(#e7e7e7 0%, #cdcdcd 100%);
+    background-image: linear-gradient(#e7e7e7 0%, #cdcdcd 100%)
+}
+
+ul#pankuzu li.root a {
+    width: 140px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    color: #333;
+    padding: 0
+}
+
+ul#pankuzu li.margin {
+    background: url(../img/pankuzuArrow.png) no-repeat -1px center;
+    background-size: 15px 18px;
+    width: 15px
+}
+
+ul#pankuzu li.marginHome {
+    background: url(../img/pankuzuArrow_home.png) no-repeat -1px center;
+    background-size: 15px 18px;
+    width: 15px
+}
+
+ul#pankuzu li.current {
+    width: 140px;
+    height: 50px;
+    background-color: #444;
+    background-color: #0c0c0c;
+    *zoom: 1;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF3F3F3F', endColorstr='#FF0C0C0C');
+    background-image: -webkit-linear-gradient(#3f3f3f 0%, #0c0c0c 100%);
+    background-image: -moz-linear-gradient(#3f3f3f 0%, #0c0c0c 100%);
+    background-image: -o-linear-gradient(#3f3f3f 0%, #0c0c0c 100%);
+    background-image: linear-gradient(#3f3f3f 0%, #0c0c0c 100%);
+    text-shadow: 1px -1px 0 #000;
+    color: #fff
+}
+
+div.caution {
+    padding: 15px 10px 10px 20px;
+    background: url(../img/caution.png) no-repeat 10px 10px;
+    background-size: 30px 30px
+}
+
+div.caution p.title {
+    font-weight: bold;
+    padding-left: 35px !important;
+    margin-bottom: 20px !important
+}
+
+div.caution p {
+    padding-left: 30px !important
+}
+
+p.kajou {
+    padding-left: 1.5em;
+    text-indent: -1.5em
+}
+
+body.cantSvg div.caution {
+    background: url(../img/caution.png) no-repeat 10px 10px
+}
+
+div.box {
+    background-color: #eee;
+    width: 80%;
+    margin: 10px auto
+}
+
+div.hint {
+    border: 2px solid #23bbee;
+    padding: 10px 10px 10px 15px
+}
+
+div.hint p.title {
+    font-weight: bold !important;
+    padding-left: 0 !important
+}
+
+div.note {
+    background-color: #f6f6f6;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px 10px 10px 20px
+}
+
+div#wrapper {
+    margin-left: 220px;
+    padding-top: 70px;
+    padding-bottom: 40px
+}
+
+div#wrapper p {
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 0 0 0 30px
+}
+
+div#wrapper p.bold {
+    margin-top: 10px;
+    font-weight: bold !important
+}
+
+div#wrapper p.main {
+    padding: 0 0 0 10px;
+    margin-bottom: 15px
+}
+
+div#wrapper p.pl60 {
+    padding-left: 60px
+}
+
+div#wrapper img {
+    margin-left: 50px
+}
+
+div#wrapper img.main {
+    margin: 0 auto;
+    display: block
+}
+
+div#wrapper img.inline {
+    margin: 0;
+    vertical-align: text-bottom
+}
+
+div#wrapper img.noMargin {
+    margin: 0
+}
+
+div.mainDiv {
+    display: none
+}
+
+ul {
+    margin: 0 0 0 10px
+}
+
+ul li {
+    margin: 7px 0
+}
+
+ul.stdList {
+    margin-left: 20px
+}
+
+ul.stdList li {
+    list-style: disc
+}
+
+ul.noDiscList {
+    margin-left: 20px
+}
+
+ul.noDiscList li {
+    list-style: none
+}
+
+table.tba {
+    width: 80%;
+    margin: 15px auto;
+    border-collapse: collapse
+}
+
+table.tba th {
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+    font-weight: bold !important
+}
+
+table.tba.photo th {
+    width: 55px
+}
+
+table.tba th.title {
+    text-align: left;
+    background-color: #ddd;
+    font-weight: normal;
+    border: none
+}
+
+table.tba td {
+    padding: 5px;
+    border-bottom: 1px dotted #ccc
+}
+
+table.tba.min {
+    width: auto;
+    border: 1px dotted #ccc
+}
+
+table.menu,
+table.menu2 {
+    width: 80%;
+    margin: 15px auto;
+    border-collapse: collapse
+}
+
+table.menu th,
+table.menu2 th {
+    border: 1px dotted #ccc;
+    background-color: #eee;
+    width: 40%;
+    padding: 10px
+}
+
+table.menu th.title,
+table.menu2 th.title {
+    text-align: left;
+    background-color: #333;
+    color: #fff;
+    font-weight: normal;
+    border: none
+}
+
+table.menu th.tbaTitle,
+table.menu2 th.tbaTitle {
+    text-align: left;
+    background-color: #ddd;
+    font-weight: normal;
+    border: none;
+    padding: 5px
+}
+
+table.menu td,
+table.menu2 td {
+    padding: 10px;
+    border: 1px dotted #ccc
+}
+
+table.menu2 th,
+table.menu2 td {
+    padding: 5px
+}
+
+table.menu2 td {
+    background-color: #fff
+}
+
+dl.menu dt {
+    margin-top: 10px;
+    font-weight: bold !important
+}
+
+dl.menu dd {
+    margin: 5px 0 5px 15px
+}
+
+dl.menu dd dl.menu dd {
+    margin-left: 30px
+}
+
+dl.menu dd dl.menu dd dl.menu dd {
+    margin-left: 45px
+}
+
+p.tejun {
+    padding-left: 27px;
+    text-indent: -27px;
+    margin: 20px 0 !important;
+    position: relative;
+    font-size: 120%
+}
+
+p.tejun span.no {
+    vertical-align: baseline;
+    margin-right: 10px;
+    color: #d62a56;
+    font-family: helvetica, san-serif;
+    font-weight: bold;
+    font-size: 32px;
+    font-size: 3.2rem
+}
+
+div.kanren {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    padding: 10px 10px 10px 15px;
+    background-color: #fcfcfc
+}
+
+div.kanren p.title {
+    font-weight: bold;
+    padding-left: 0 !important
+}
+
+div.kanren ul li {
+    margin: 15px 0;
+    background: url(../img/cf.svg) no-repeat 0 5px;
+    padding: 10px 10px 10px 35px
+}
+
+div.kanren ul li a {
+    padding: 10px 10px 10px 15px
+}
+
+p.cf {
+    background: url(../img/cf.svg) no-repeat 30px 5px;
+    padding: 10px 0 10px 65px !important;
+    margin: 15px 0 !important
+}
+
+body.cantSvg div.kanren ul li {
+    background: url(../img/cf.jpg) no-repeat 0 5px
+}
+
+body.cantSvg p.cf {
+    background: url(../img/cf.jpg) no-repeat 0 30px 5px
+}
+
+div.close {
+    text-align: right
+}
+
+div.close img {
+    cursor: pointer
+}
+
+iframe.photo {
+    width: 100%
+}
+
+iframe.panorama {
+    height: 344px;
+    overflow-x: scroll;
+    overflow-y: hidden
+}
+
+iframe.sphere {
+    height: 500px;
+    overflow-x: hidden !important;
+    overflow-y: hidden
+}
+
+div#lMenu {
+    min-height: 1200px;
+    position: absolute;
+    top: 31px;
+    left: -10px;
+    z-index: 10;
+    background-color: #222;
+    height: 100%;
+    color: #eee;
+    padding-top: 18px;
+    padding-left: 10px;
+    text-shadow: 1px -1px 0 #000;
+    -webkit-box-shadow: inset -2px 0 25px 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset -2px 0 25px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: inset -2px 0 25px 10px rgba(0, 0, 0, 0.6)
+}
+
+div#lMenu div.navTitle {
+    padding: 20px 0 0 10px;
+    height: 30px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    background-color: #01265c;
+    -webkit-box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.5)
+}
+
+div#lMenu ul#globalNavi {
+    position: relative;
+    margin: 0;
+    width: 200px
+}
+
+div#lMenu ul#globalNavi li {
+    margin: 0
+}
+
+div#lMenu ul#globalNavi li:first-child {
+    border-top: 1px solid #222
+}
+
+div#lMenu ul#globalNavi li:hover {
+    background-color: #464646
+}
+
+div#lMenu ul#globalNavi li.outerList {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #444;
+    padding: 20px 0 20px 10px;
+    cursor: pointer;
+    height: 17px
+}
+
+div#lMenu ul#globalNavi li.outerList.active {
+    background-position: 170px 22px;
+    text-shadow: 1px -1px 0 #000;
+    color: #fff;
+    border-top: #111 1px solid;
+    border-bottom: #111 1px solid;
+    -webkit-box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.5);
+    background-color: #424242
+}
+
+div#lMenu ul#globalNavi li.outerList.bgSz,
+div#lMenu ul#globalNavi li.outerList#beforeUse,
+div#lMenu ul#globalNavi li.outerList#basic,
+div#lMenu ul#globalNavi li.outerList#home,
+div#lMenu ul#globalNavi li.outerList#web,
+div#lMenu ul#globalNavi li.outerList#photo,
+div#lMenu ul#globalNavi li.outerList#movie,
+div#lMenu ul#globalNavi li.outerList#music,
+div#lMenu ul#globalNavi li.outerList#mail,
+div#lMenu ul#globalNavi li.outerList#app,
+div#lMenu ul#globalNavi li.outerList#android,
+div#lMenu ul#globalNavi li.outerList#connect,
+div#lMenu ul#globalNavi li.outerList#setting,
+div#lMenu ul#globalNavi li.outerList#todo,
+div#lMenu ul#globalNavi li.outerList#spec {
+    background-size: 50px 50px;
+    background-repeat: no-repeat
+}
+
+div#lMenu ul#globalNavi li.outerList#beforeUse {
+    background-image: url(../img/index_g/bg_before21_d.png);
+    background-position: 125px 10px;
+    background-size: 70px
+}
+
+div#lMenu ul#globalNavi li.outerList#basic {
+    background-image: url(../img/index_g/bg_basic1_d.png);
+    background-position: 130px 25px
+}
+
+div#lMenu ul#globalNavi li.outerList#home {
+    background-image: url(../img/index_g/bg_home1_d.png);
+    background-position: 130px 25px
+}
+
+div#lMenu ul#globalNavi li.outerList#web {
+    background-image: url(../img/index_g/bg_chrome_6x_d.png);
+    background-position: 130px 25px
+}
+
+div#lMenu ul#globalNavi li.outerList#photo {
+    background-image: url(../img/index_g/bg_photo_6x_d.png);
+    background-position: 130px 25px
+}
+
+div#lMenu ul#globalNavi li.outerList#movie {
+    background-image: url(../img/index_g/bg_video_a.png);
+    background-position: 130px 25px
+}
+
+div#lMenu ul#globalNavi li.outerList#music {
+    background-image: url(../img/index_g/bg_music_6x_d.png);
+    background-position: 130px 15px
+}
+
+div#lMenu ul#globalNavi li.outerList#mail {
+    background-image: url(../img/index_g/bg_mail_6x_d.png);
+    background-position: 130px 25px
+}
+
+div#lMenu ul#globalNavi li.outerList#app {
+    background-image: url(../img/index_g/bg_play_6x_d.png);
+    background-position: 130px 15px
+}
+
+div#lMenu ul#globalNavi li.outerList#android {
+    background-image: url(../img/index_g/bg_android_a.png);
+    background-position: 130px 25px
+}
+
+div#lMenu ul#globalNavi li.outerList#connect {
+    background-image: url(../img/index_g/bg_connect_d.png);
+    background-position: 130px 23px
+}
+
+div#lMenu ul#globalNavi li.outerList#setting {
+    background-image: url(../img/index_g/bg_setting_6x_d.png);
+    background-position: 130px 25px
+}
+
+div#lMenu ul#globalNavi li.outerList#todo {
+    background-image: url(../img/index_g/bg_todo_a.png);
+    background-position: 130px 10px
+}
+
+div#lMenu ul#globalNavi li.outerList#spec {
+    background-image: url(../img/index_g/bg_about_d.png);
+    background-position: 130px 10px
+}
+
+div#lMenu ul#globalNavi li ul.localNavi {
+    margin: 0 0 15px 0;
+    left: 220px;
+    background-color: #eee;
+    display: none;
+    width: 300px;
+    position: absolute;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0 2px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.7) 0 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0 2px 5px
+}
+
+div#lMenu ul#globalNavi li ul.localNavi li {
+    text-shadow: none;
+    border-top: none !important;
+    border-bottom: #ccc 1px solid
+}
+
+div#lMenu ul#globalNavi li ul.localNavi li.title {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 10px;
+    border: none
+}
+
+div#lMenu ul#globalNavi li ul.localNavi li.title:hover {
+    background-color: #000 !important;
+    cursor: auto !important
+}
+
+div#lMenu ul#globalNavi li ul.localNavi li:hover {
+    background-color: #333
+}
+
+div#lMenu ul#globalNavi li ul.localNavi li:hover:hover a {
+    color: #fff
+}
+
+div#lMenu ul#globalNavi li ul.localNavi li:last-child {
+    border-bottom: none
+}
+
+div#lMenu ul#globalNavi li ul.localNavi li a {
+    padding: 16px 10px;
+    display: block;
+    color: #000
+}
+
+div#lMenu ul#globalNavi li ul.localNavi li.hasImg a {
+    padding: 12px 10px
+}
+
+div#lMenu ul#globalNavi li ul.localNavi li img {
+    vertical-align: middle
+}
+
+div#header ul#header_panel {
+    float: right;
+    margin-top: -50px;
+    display: none
+}
+
+div#header ul#header_panel li {
+    display: inline-block;
+    margin-right: 40px
+}
+
+div#header div#lanDiv {
+    text-align: center;
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px
+}
+
+div#header div#lanDiv p {
+    text-align: center;
+    font-size: 12px;
+    font-size: 1.2rem
+}
+div#lanDiv select {
+    text-align: center;
+}
+
+div#pageTop {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2px;
+    width: 120px;
+    height: 25px;
+    position: fixed;
+    border-top: 1px solid #444;
+    border-left: 1px solid #444;
+    bottom: 0;
+    right: 0;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px
+}
+
+div#pageBack {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2px;
+    width: 120px;
+    height: 25px;
+    position: fixed;
+    border-top: 1px solid #444;
+    border-right: 1px solid #000;
+    bottom: 0;
+    left: 200px;
+    cursor: pointer;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 20
+}
+
+@media only screen and (max-width: 650px) {
+    div#header p#help {
+        display: none
+    }
+    div#header ul#header_panel li {
+        margin-right: 15px
+    }
+    div#wrapper {
+        margin-left: 0
+    }
+    div#wrapper img {
+        margin-left: 0
+    }
+    div#wrapper p {
+        padding-left: 0
+    }
+    div#wrapper p.tejun {
+        padding-left: 30px
+    }
+    table.tba th,
+    table.tba td,
+    table.menu th,
+    table.menu2 th,
+    table.menu td,
+    table.menu2 td {
+        display: block;
+        width: 100% !important
+    }
+    table.tba th,
+    table.menu th,
+    table.menu2 th {
+        border-bottom: none
+    }
+    table.tba tr:not(:first-child) th,
+    table.menu tr:not(:first-child) th,
+    table.menu2 tr:not(:first-child) th {
+        border-top: none
+    }
+    div#lMenu {
+        left: -280px
+    }
+    div#pageBack {
+        left: 0
+    }
+}
+
+dl.std {
+    margin-left: 20px
+}
+
+dl.std dt {
+    margin: 10px 0
+}
+
+dl.std dd {
+    padding-left: 15px
+}
+
+div.toiawase {
+    color: #18b6e5
+}

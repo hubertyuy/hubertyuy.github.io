@@ -1,0 +1,345 @@
+a {
+    text-decoration: none;
+    color: #343434
+}
+
+html,
+body {
+    background-color: #000
+}
+
+div#header {
+    background-color: #000
+}
+
+div#superWrapper {
+    max-width: 1280px
+}
+
+div#topMenu {
+    float: left;
+    margin-top: 10px
+}
+
+div#wrapper {
+    max-width: 380px;
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px
+}
+
+div#footer {
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding-bottom: 20px;
+    color: #ccc
+}
+
+ul#globalNavi {
+    position: relative;
+    margin: 0 0 0 15px;
+    width: 440px;
+    z-index: 10;
+    color: #fff
+}
+
+ul#globalNavi li.outerList {
+    width: 180px;
+    height: 60px;
+    margin: 0 10px 10px 0;
+    background-color: #242424;
+    float: left;
+    padding: 10px;
+    cursor: pointer
+}
+
+ul#globalNavi li.outerList:hover {
+    background-color: #353535 !important;
+    color: #fff !important
+}
+
+ul#globalNavi li.outerList.active {
+    background-color: #353535 !important;
+    background-position: 175px 15px;
+    color: #fff !important
+}
+
+ul#globalNavi li.outerList.bgSz,
+ul#globalNavi li.outerList#beforeUse,
+ul#globalNavi li.outerList#basic,
+ul#globalNavi li.outerList#home,
+ul#globalNavi li.outerList#web,
+ul#globalNavi li.outerList#photo,
+ul#globalNavi li.outerList#movie,
+ul#globalNavi li.outerList#music,
+ul#globalNavi li.outerList#mail,
+ul#globalNavi li.outerList#app,
+ul#globalNavi li.outerList#android,
+ul#globalNavi li.outerList#connect,
+ul#globalNavi li.outerList#setting,
+ul#globalNavi li.outerList#todo,
+ul#globalNavi li.outerList#spec {
+    background-size: 85px 85px;
+    background-repeat: no-repeat
+}
+
+ul#globalNavi li.outerList#beforeUse {
+    background-image: url(../img/index_g/bg_before21.png);
+    background-position: 100px 5px;
+    background-size: 105px
+}
+
+ul#globalNavi li.outerList#basic {
+    background-image: url(../img/index_g/bg_basic1.png);
+    background-position: 100px 35px
+}
+
+ul#globalNavi li.outerList#home {
+    background-image: url(../img/index_g/bg_home1.png);
+    background-position: 100px 30px
+}
+
+ul#globalNavi li.outerList#web {
+    background-image: url(../img/index_g/bg_chrome_6x.png);
+    background-position: 100px 25px
+}
+
+ul#globalNavi li.outerList#photo {
+    background-image: url(../img/index_g/bg_photo_6x.png);
+    background-position: 100px 25px
+}
+
+ul#globalNavi li.outerList#movie {
+    background-image: url(../img/index_g/bg_video.png);
+    background-position: 100px 25px
+}
+
+ul#globalNavi li.outerList#music {
+    background-image: url(../img/index_g/bg_music_6x.png);
+    background-position: 100px 25px
+}
+
+ul#globalNavi li.outerList#mail {
+    background-image: url(../img/index_g/bg_mail_6x.png);
+    background-position: 100px 25px
+}
+
+ul#globalNavi li.outerList#app {
+    background-image: url(../img/index_g/bg_play_6x.png);
+    background-position: 100px 20px
+}
+
+ul#globalNavi li.outerList#android {
+    background-image: url(../img/index_g/bg_android.png);
+    background-position: 100px 35px
+}
+
+ul#globalNavi li.outerList#connect {
+    background-image: url(../img/index_g/bg_connect.png);
+    background-position: 105px 30px
+}
+
+ul#globalNavi li.outerList#setting {
+    background-image: url(../img/index_g/bg_setting_6x.png);
+    background-position: 100px 25px
+}
+
+ul#globalNavi li.outerList#todo {
+    background-image: url(../img/index_g/bg_todo.png);
+    background-position: 100px 15px
+}
+
+ul#globalNavi li.outerList#spec {
+    background-image: url(../img/index_g/bg_about.png);
+    background-position: 100px 15px
+}
+
+ul.localNavi {
+    margin: 0 0 15px 0;
+    left: 460px;
+    font-size: 110%;
+    display: none;
+    color: #000;
+    width: 230px;
+    position: absolute;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px
+}
+
+ul.localNavi li {
+    text-shadow: none;
+    background-color: rgba(250, 250, 250, 0.9);
+    border-bottom: 1px solid #ccc;
+    height: auto;
+    width: 230px;
+    margin: 0
+}
+
+ul.localNavi li.title {
+    background-color: #333 !important;
+    width: 220px !important;
+    color: #fff;
+    padding: 5px 5px;
+    border-top: none !important
+}
+
+ul.localNavi li.title:hover {
+    background-color: #333 !important;
+    cursor: auto !important
+}
+
+ul.localNavi li a {
+    padding: 15px 10px;
+    display: block;
+    font-size: 80%
+}
+
+ul.localNavi li a:hover {
+    background-color: #bbb
+}
+
+ul.localNavi li.hasImg a {
+    padding: 8px 10px
+}
+
+ul.localNavi li img {
+    vertical-align: middle
+}
+
+img.logo {
+    margin-bottom: 3px
+}
+
+div#lanDiv {
+    margin: 20px 0 30px 0;
+    
+}
+
+div#lanDiv p {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-size: 1.2rem
+}
+div#lanDiv select {
+    padding-left:10px;
+    text-align: center;
+}
+
+div#term {
+    padding: 10px 10px;
+    color: #ababab;
+    font-size: 80%;
+    text-align: left
+}
+
+div#term h3 {
+    color: #fff
+}
+
+div#spLogo {
+    display: none
+}
+
+div#pcofLogo {
+    margin-top: 30px;
+    margin-bottom: 3px;
+    padding-left: 63px
+}
+
+div#pcLogo {
+    margin-top: 30px;
+    padding-right: 160px
+}
+
+p.help {
+    margin-bottom: 10px
+}
+
+div#photoWrapper {
+    color: #fff;
+    float: right;
+    margin-right: 15px
+}
+
+@media only screen and (max-width: 870px) {
+    div#photoWrapper {
+        width: 30%;
+        margin-right: 0
+    }
+    div#photoWrapper img#kalos {
+        width: 90%;
+        height: auto;
+        max-width: 400px
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    div#photoWrapper {
+        display: none
+    }
+    div#topMenu {
+        margin: 10px auto 0 auto;
+        float: none
+    }
+    div#spLogo {
+        display: block;
+        color: #fff;
+        padding: 5px 0 0 10px
+    }
+    ul#globalNavi {
+        font-size: 125%;
+        vertical-align: top;
+        margin: 0 auto;
+        width: 290px
+    }
+    ul#globalNavi li.outerList {
+        width: 270px;
+        margin: 0 0 10px 0;
+        background-position: 180px 15px !important;
+        position: relative
+    }
+    ul#globalNavi li.outerList:hover {
+        color: #fff
+    }
+    ul#globalNavi li.outerList.active {
+        color: #fff;
+        background-color: #565656;
+        padding-bottom: 40px;
+        height: auto
+    }
+    ul#globalNavi li.outerList#android {
+        background-position: 180px 25px !important
+    }
+    ul#globalNavi li.outerList#beforeUse {
+        background-position: 180px 5px !important
+    }
+    ul#globalNavi li.outerList ul.localNavi {
+        top: 0 !important;
+        left: 0;
+        margin: 40px 0 0 10px;
+        padding: 0;
+        width: 245px;
+        position: relative;
+        box-shadow: none;
+        -webkit-box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.4)
+    }
+    ul#globalNavi li.outerList ul.localNavi li {
+        width: 100% !important;
+        text-shadow: none;
+        border-bottom: 1px solid #ccc !important
+    }
+    ul#globalNavi li.outerList ul.localNavi li.title {
+        width: 235px !important;
+        font-size: 80%
+    }
+    ul#globalNavi li.outerList ul.localNavi li a {
+        padding: 16px 10px
+    }
+    ul#globalNavi li.outerList ul.localNavi li.hasImg a {
+        padding: 16px 10px
+    }
+}

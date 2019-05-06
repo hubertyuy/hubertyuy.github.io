@@ -1,0 +1,236 @@
+a {
+    text-decoration: none;
+    color: #343434
+}
+
+html,
+body {
+    background-color: #000
+}
+
+div#header {
+    background-color: #000
+}
+
+div#superWrapper {
+    max-width: 1280px
+}
+
+div#topMenu {
+    float: left;
+    margin-top: 10px
+}
+
+div#wrapper {
+    float: left;
+    padding-top: 10px;
+    padding-right: 20px
+}
+
+div#footer {
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding-bottom: 20px;
+    color: #ccc
+}
+
+ul#globalNavi {
+    position: relative;
+    margin: 0 0 0 15px;
+    width: 200px;
+    z-index: 10;
+    background-color: #000;
+    color: #fff
+}
+
+ul#globalNavi li {
+    border-bottom: 1px solid #333
+}
+
+ul#globalNavi li:last-child {
+    border-bottom: none
+}
+
+ul#globalNavi li:hover {
+    background-color: #ccc
+}
+
+ul#globalNavi li.outerList {
+    background: url(../img/gArrow.svg) no-repeat 175px 15px;
+    padding: 13px 0 13px 10px;
+    cursor: pointer;
+    height: 17px
+}
+
+ul#globalNavi li.outerList.active {
+    background-image: url(../img/rArrow.svg);
+    background-position: 175px 15px;
+    text-shadow: 1px -1px 0 #000;
+    color: #fff;
+    background-color: #424242
+}
+
+ul#globalNavi li.outerList.higher {
+    padding: 6px 0 10px 10px;
+    height: 27px
+}
+
+ul.localNavi {
+    margin: 0 0 15px 0;
+    left: 230px;
+    background-color: #fff;
+    font-size: 110%;
+    display: none;
+    color: #000;
+    width: 230px;
+    position: absolute;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px
+}
+
+ul.localNavi li {
+    text-shadow: none;
+    border-bottom: 1px solid #ccc !important
+}
+
+ul.localNavi li.title {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 5px;
+    border-top: none !important
+}
+
+ul.localNavi li.title:hover {
+    background-color: #333 !important;
+    cursor: auto !important
+}
+
+ul.localNavi li a {
+    padding: 15px 10px;
+    display: block;
+    font-size: 80%
+}
+
+ul.localNavi li.hasImg a {
+    padding: 8px 10px
+}
+
+ul.localNavi li img {
+    vertical-align: middle
+}
+
+div#photo {
+    z-index: 0;
+    color: #fff
+}
+
+div#photo p.ver {
+    color: #eee;
+    padding-top: 10px;
+    font-size: 80%
+}
+
+div#photo img#logo {
+    margin-bottom: 8px
+}
+
+div#photo p#help {
+    margin-bottom: 70px
+}
+
+div#lanDiv {
+    padding: 15px
+}
+
+div#lanDiv select#selLan {
+    text-align: center;
+    height: 30px;
+    background-color: #eee
+}
+div#lanDiv select {
+    text-align: center;
+}
+
+div#term {
+    padding: 10px 50px;
+    color: #ababab;
+    font-size: 80%;
+    text-align: left
+}
+
+div#spLogo {
+    display: none
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        background: url(../img/spBg.png)
+    }
+    body.retina {
+        background-size: 512px 512px
+    }
+    div#wrapper {
+        margin: 0 auto
+    }
+    div#photo {
+        display: none
+    }
+    div#topMenu {
+        margin: 10px auto 0 auto;
+        float: none
+    }
+    div#spLogo {
+        display: block;
+        color: #fff;
+        padding: 5px 0 0 10px
+    }
+    ul#globalNavi {
+        vertical-align: top;
+        margin: 0 auto;
+        width: 290px
+    }
+    ul#globalNavi li.outerList {
+        background-color: #eee;
+        color: #000;
+        background-position: 270px 22px;
+        position: relative;
+        padding: 20px 0 20px 15px;
+        border-color: #ccc
+    }
+    ul#globalNavi li.outerList.higher {
+        padding: 10px 0 6px 10px;
+        height: 41px
+    }
+    ul#globalNavi li.outerList.active {
+        text-shadow: 1px -1px 0 #000;
+        background: url(../img/rArrow_below.svg) no-repeat 270px 22px;
+        background-color: #424242;
+        padding-bottom: 40px;
+        font-size: 120%;
+        height: auto
+    }
+    ul.localNavi {
+        top: 0 !important;
+        left: 0;
+        margin: 25px 0 0 3%;
+        padding: 0;
+        background-color: #eee;
+        width: 90%;
+        position: relative;
+        box-shadow: none;
+        -webkit-box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.4)
+    }
+    ul.localNavi li {
+        text-shadow: none;
+        border-bottom: 1px solid #ccc !important
+    }
+    ul.localNavi li a {
+        padding: 16px 10px
+    }
+    ul.localNavi li.hasImg a {
+        padding: 16px 10px
+    }
+}
